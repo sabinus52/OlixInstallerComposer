@@ -1,0 +1,23 @@
+{
+	"name" : "sabinus52/olix-installer-composer",
+	"type" : "composer-plugin",
+	"description" : "Installe / Met à jour les packages Olix depuis Composer",
+	"keywords" : [
+		"olix",
+		"assets",
+		"composer",
+		"installer",
+		"symfony"
+	],
+	"homepage" : "https://github.com/sabinus52/OlixInstallerComposer.git",
+	"license" : "GPL-2.0",
+	"authors" : [{
+			"name" : "Olivier",
+			"email" : "sabinus52@gmail.com"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.2",
+		"composer-plugin-api" : "1.*"
+	}
+}

@@ -32,3 +32,10 @@
 
 # Composer PHAR
 /composer.phar
+/composer.lock
+
+# Anciens et fichiers temporaires
+old*
+*.old
+*.tmp
+
