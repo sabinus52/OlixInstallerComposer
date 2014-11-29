@@ -19,5 +19,13 @@
 	"require" : {
 		"php" : ">=5.3.2",
 		"composer-plugin-api" : "1.*"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"OlixInstaller\\" : "src/"
+		}
+	},
+	"extra" : {
+		"class" : "OlixInstaller\\AssetPlugin"
 	}
 }
