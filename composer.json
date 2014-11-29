@@ -20,6 +20,9 @@
 		"php" : ">=5.3.2",
 		"composer-plugin-api" : "1.*"
 	},
+	"require-dev" : {
+		"composer/composer" : "dev-master"
+	},
 	"autoload" : {
 		"psr-0" : {
 			"OlixInstaller\\" : "src/"
