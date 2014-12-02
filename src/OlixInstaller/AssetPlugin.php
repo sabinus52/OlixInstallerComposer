@@ -17,17 +17,18 @@ use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
 
 
-class AssetPlugin implements PluginInterface {
+class AssetPlugin implements PluginInterface
+{
 
 
-	/**
-	 * (non-PHPdoc)
-	 * @see \Composer\Plugin\PluginInterface::activate()
-	 */
-	public function activate (Composer $composer, IOInterface $io)
-	{
-		$installer = new AssetInstaller($io, $composer);
-		$composer->getInstallationManager()->addInstaller($installer);
-	}
+    /**
+     * (non-PHPdoc)
+     * @see \Composer\Plugin\PluginInterface::activate()
+     */
+    public function activate(Composer $composer, IOInterface $io)
+    {
+        $installer = new AssetInstaller($io, $composer);
+        $composer->getInstallationManager()->addInstaller($installer);
+    }
 
 }
